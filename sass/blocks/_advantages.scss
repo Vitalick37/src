@@ -1,0 +1,16 @@
+.advantages {
+    padding: 69px 0 81px 0;
+    background-color: #f6f6f6;
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__title {
+      margin-bottom: 65px;
+      font-weight: 700;
+      font-size: 30px;
+      text-transform: uppercase;
+      color: #0d0d0d;
+  }
+}
