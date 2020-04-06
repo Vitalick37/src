@@ -6,8 +6,14 @@
         color: #fff;
     }
     .advantage {
-       
         margin-right: 36px;
+    }
+
+    .catalog__content {
+        justify-content: space-around;
+    }
+    .feedback__comment img {
+        margin-right: 56px;
     }
 
 
@@ -16,13 +22,16 @@
 @media (max-width: 767px) {
     .promo {
         padding: 21px 10px 93px 10px;
+
         &__wrapper {
             margin-top: 70px;
             align-items: center;
         }
+
         &__header {
             font-size: 40px;
         }
+
         &__subheader {
             font-size: 22px;
         }
@@ -30,6 +39,7 @@
 
     .header {
         align-items: start;
+
         &__logo {
             max-width: 220px;
         }
@@ -46,26 +56,112 @@
             }
         }
     }
+
     .advantages {
-        padding: 69px 10px 81px 10px; 
-       
+        padding: 69px 10px 81px 10px;
+
     }
+
     .advantage {
         margin-right: 29px;
+
         &__subtitle {
             font-size: 14px;
         }
+
         &__description {
             font-size: 12px;
         }
     }
+
     .slick-slide {
         img {
 
-width: 100%;
+            width: 100%;
         }
     }
-  
+    .feedback__comment {
+        margin-bottom: 70px;
+    }
+
 }
 
-@media (max-width: 575px) {}
+@media (max-width: 575px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+
+        &__official,
+        &__contacts {
+            margin-top: 20px;
+        }
+    }
+
+    .promo {
+        padding: 21px 10px 63px 10px;
+
+        &__wrapper {
+            margin-top: 50px;
+        }
+
+        &__header {
+            font-size: 38px;
+            text-align: center;
+        }
+
+        &__subheader {
+            font-size: 20px;
+            text-align: center;
+        }
+
+        &__icons {
+            max-width: 310px;
+            margin-bottom: 40px;
+        }
+
+        &__icon {
+            font-size: 12px;
+        }
+    }
+
+    .advantages {
+        padding: 59px 10px 61px 10px;
+
+    }
+
+    .advantage {
+        margin-right: 0;
+        &__wrapper {
+            flex-direction: column;
+            margin-top: 45px;
+        }
+    }
+    .consultation {
+        padding: 70px 10px 62px 10px;
+        &__desc {
+            font-size: 18px;
+            text-align: center;
+        }
+    }
+    .title_left {
+        font-size: 30px;
+    }
+    .catalog {
+        padding: 0 10px 73px 10px;
+        &__tabs {
+            margin-top: 50px;
+          flex-direction: column;
+        }
+        &__tab {
+            margin-bottom: 15px;
+        }
+    }
+    .feedback {
+        &__comment {
+            flex-direction: column;
+            img {
+                margin: 0 0 20px 0;
+            }
+        }
+    }
+}
