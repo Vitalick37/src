@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <section class="promo">
+    <section id="up" class="promo">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
@@ -65,7 +65,7 @@
                         </div>
                     </div>
                     <div class="advantage">
-                        <img src="img/icon/advantage/advantage_heart.png" alt="heart">
+                        <img src="img/icon/advantage/advantage_heart.png" alt="heart" class="advantages__icon advantages__icon_animated">
                         <div class="advantage__subtitle">
                             Заботимся о здоровье
                         </div>
@@ -101,16 +101,16 @@
                     и мы перезвоним вам в течении 10 минут</p>
                 <form id="consultation-form" class="feed-form" action="#">
 
-                    <input type="text" class="" name="name" id="" required placeholder="Ваше имя">
-                    <input class="" name="phone" id="" required placeholder="Ваш телефон">
-                    <input type="email" class="" name="email" id="" required placeholder="Ваш E-mail">
+                    <input type="text" class="" name="name" required placeholder="Ваше имя">
+                    <input class="" name="phone" required placeholder="Ваш телефон">
+                    <input type="email" class="" name="email" required placeholder="Ваш E-mail">
 
                     <button class="button button_form">заказать кОНСУЛЬТАЦИЮ</button>
                 </form>
             </div>
         </div>
     </section>
-    <section class="carousel">
+    <div class="carousel">
         <div class="container">
             <div class="carousel__inner">
                 <div>
@@ -124,7 +124,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <section class="catalog">
         <div class="container">
             <h2 class="title title_catalog">Каталог пульсометров</h2>
@@ -564,9 +564,9 @@
             <div class="modal__descr">и мы перезвоним вам в течении 10 минут</div>
             <form class="feed-form feed-form_mt25" action="#">
 
-                <input type="text" class="" name="name" id="" required placeholder="Ваше имя">
-                <input class="" name="phone" id="" required placeholder="Ваш телефон">
-                <input type="email" class="" name="email" id="" required placeholder="Ваш E-mail">
+                <input type="text" class="" name="name" required placeholder="Ваше имя">
+                <input class="" name="phone" required placeholder="Ваш телефон">
+                <input type="email" class="" name="email" required placeholder="Ваш E-mail">
 
                 <button class="button button_form">заказать кОНСУЛЬТАЦИЮ</button>
             </form>
@@ -579,9 +579,9 @@
             <div class="modal__descr">Пульсометр Polar FT1</div>
             <form class="feed-form feed-form_mt25" action="#">
 
-                <input type="text" class="" name="name" id="" placeholder="Ваше имя">
-                <input class="" name="phone" id="" placeholder="Ваш телефон">
-                <input type="email" class="" name="email" id="" placeholder="Ваш E-mail">
+                <input type="text" class="" name="name" placeholder="Ваше имя">
+                <input class="" name="phone" placeholder="Ваш телефон">
+                <input type="email" class="" name="email" placeholder="Ваш E-mail">
 
                 <button class="button button_form">Купить</button>
             </form>
@@ -595,6 +595,10 @@
 
         </div>
     </div>
+
+    <a href="#up" class="pageup">
+        <img src="img/chevron-circle-up-solid.svg" alt="up">
+    </a>
 
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>

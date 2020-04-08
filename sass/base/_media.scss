@@ -159,9 +159,52 @@
     .feedback {
         &__comment {
             flex-direction: column;
+            align-items: center;
             img {
                 margin: 0 0 20px 0;
             }
         }
+        &__name, &__descr {
+            text-align: center;
+        }
+    }
+
+    .modal {
+        max-width: 300px;
+        padding: 18px 20px 20px 20px;
+        min-height: 380px;
+        
+        &__close {
+            right: 0;
+            top: -25px;
+        }
+    }
+    .feed-form {
+        margin: 0 auto;
+        margin-top: 36px;
+    }
+
+    .feed-form_mt25 {
+        max-width: 250px;
+    }
+    .footer__info {
+        // width: 270px;
+        // max-height: 225px;
+        // padding: 10px 8px 15px 8px;
+        // bottom: 0;
+        // top: auto;
+        // height: auto;
+        display: none;
+         
+    }
+    .footer__addr {
+        margin-bottom: 20px;
+    }
+    .footer__phone {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .pageup {
+        right: 20px;
     }
 }
